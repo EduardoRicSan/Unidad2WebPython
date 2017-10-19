@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block body%}
+    <h2>{{the_tittle}}</h2>
+<p>The values in the ecuation: </p>
+<table>
+    <tr>
+        <td>g:</td>
+        <td>{{the_g}}</td>
+    </tr>
+    <tr>
+        <td>R:</td>
+        <td>{{the_R}}</td>
+    </tr>
+     <tr>
+        <td>r:</td>
+        <td>{{the_r}}</td>
+    </tr>
+    <tr>
+        <td colspan="2"> Area = pi[g (R + r) + R**2 + r**2] </td>
+    </tr>
+    <tr>Area:</td>
+        <td>{{the_result}}</td>
+    </tr>
+    <tr>
+        <td colspan="2"><a href="entry">Return</a></td>
+    </tr>
+</table>
+{% endblock%}
